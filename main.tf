@@ -1,5 +1,5 @@
 module "label" {
-  source     = "git::https://github.com/InscribeAI/terraform-null-label.git?ref=0.16"
+  source     = "git::https://github.com/InscribeAI/terraform-null-label.git?ref=0.16.0"
   enabled    = "${var.enabled}"
   namespace  = "${var.namespace}"
   stage      = "${var.stage}"
